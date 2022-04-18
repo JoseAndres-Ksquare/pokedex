@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="general-container">
+        <div class="search-bar">
+            <input id="pokemon" class="search" autocomplete="off" type="text" >
+            <button onclick="getPokemonData()"> Search</button>
+            <button onclick="refresh()"> Refresh</button>
+        </div>
+        <div class="containerAlone visibility"  id="poke-card1">
+            <div class=" poke-search" >
+                <div class="container-name">
+                    <b><a target="blank" class="name aSelec" id="poke-name" href=""
+                        style="color: black; text-decoration: none; text-transform: capitalize;">
+                        
+                    </a></b>
+                </div>
+                <div class="container-sprite">
+                    <img class="sprite" id="poke-sprite" src="">
+                </div>
+            
+                <div class="container-types">
+                    <span class="type" id="poke-types" href="">type</span>
+                </div>
+                <br>
+                <div class="content2">
+                    <div class="container-attack">
+                        <span>Attack </span>
+                        <span class="attack" id="poke-attackValue" href=""></span>
+                    </div>
+                    <div class="container-hp">
+                        <span>HP </span>
+                        <span class="hp" id="poke-hp" href=""></span>
+                    </div>
+            
+
+            
+                    <div class="container-defense">
+                        <span>Defense </span>
+                        <span class="defense" id="poke-defenseValue" href=""></span>
+                    </div>
+            
+                    <div class="container-speed">
+                        <span>Speed </span>
+                        <span class="speed" id="poke-speedValue" href=""></span>
+                    </div>
+            
+                </div>
+            
+            </div>
+            
+        </div>
+        <div class="poke-dex"id="poke-dex1">
+        </div>
+
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
